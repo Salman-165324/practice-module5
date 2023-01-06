@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    /* padding: 0; */
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.primary-text-1 {
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+
+}
+
+.btn-primary {
+
+    background: #FD6E0A;
+    border-radius: 5px;
+    height: 64px;
+    padding: 18px 35px 19px 36px;
+
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+    border: none;
+}
+
+/* nav Manue */
+.nav-organizer {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 230px 50px 226px;
+}
+
+.nav-menue {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.nav-menue-titles {
+    margin-right: 50px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+
+.nav-logo {
+    font-weight: 800;
+    font-size: 45px;
+    color: #181818;
+}
+
+/* nav Manue end */
+
+/* Front page Banner */
+
+/* banner */
+.banner {
+    display: flex;
+    align-items: center;
+    margin: 0px 163px 0px 230px;
+}
+
+.sub-heading {
+    font-weight: 600;
+    font-size: 45px;
+    color: #474747;
+}
+
+.main-heading {
+    color: #181818;
+    font-weight: 700;
+    font-size: 85px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+
+.home-buttons {
+
+    display: flex;
+
+
+}
+
+.home-buttons .btn-primary {
+
+    margin-top: 30px;
+    margin-right: 30px;
+}
+
+.btn-secondary {
+    margin-top: 30px;
+    background: #FFF8F3;
+    border-radius: 5px;
+    height: 64px;
+    padding: 18px 35px 19px 36px;
+    border-color: #FD6E0A;
+
+    font-weight: 700;
+    font-size: 20px;
+    color: #FD6E0A;
+
+}
+
+.banner{
+    background-image: url(/images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+/* banner */
