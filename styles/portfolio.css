@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    /* padding: 0; */
+    padding: 0;
     font-family: 'Open Sans', sans-serif;
 
 }
@@ -9,7 +9,6 @@
     font-weight: 400;
     font-size: 18px;
     color: #757575;
-
 }
 
 .btn-primary {
@@ -25,20 +24,20 @@
     border: none;
 }
 
-/* nav Manue */
+/* nav Menu */
 .nav-organizer {
     display: flex;
     justify-content: space-between;
-    padding: 50px 230px 50px 226px;
+    padding: 50px 168px 50px 226px;
 }
 
-.nav-menue {
+.nav-menu {
     list-style: none;
     display: flex;
     align-items: center;
 }
 
-.nav-menue-titles {
+.nav-menu-titles {
     margin-right: 50px;
     font-weight: 400;
     font-size: 20px;
@@ -51,15 +50,17 @@
     color: #181818;
 }
 
-/* nav Manue end */
+/* nav Menu end */
 
-/* Front page Banner */
+/* Front page Banner and headings */
 
-/* banner */
 .banner {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    margin: 0px 163px 0px 230px;
+    padding: 0px 38px 0px 230px;
+    /* margin: 0px 205px */
+
 }
 
 .sub-heading {
@@ -75,6 +76,7 @@
     margin-bottom: 20px;
     margin-top: 5px;
 }
+
 
 
 .home-buttons {
@@ -104,10 +106,16 @@
 
 }
 
-.banner{
-    background-image: url(/images/header_bg.png);
+.header-banner{
+    background-image: url(/images/header_bg.png), url(../images/developer.png);
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, bottom left;
+
 }
 
-/* banner */
+
+/* Front page Banner and headings end */
+
+/* main section */
+
+
